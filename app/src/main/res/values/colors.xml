@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_night">#000000</color>
+    <color name="colorPrimaryDark_night">#000000</color>
+    <color name="colorAccent">#C22B2E</color>
+    <color name="colorPrimary_alt">#FFFFFF</color>
+    <color name="colorPrimaryDark_alt">#000000</color>
+    <color name="textColorPrimary_alt">#000000</color>
+    <color name="textColorPrimary">#e2e2e2</color>
+    <color name="textColorPrimaryScroll">#1AE2E2E2</color>
+    <color name="windowBackground_night">#000000</color>
+    <color name="buttonColor_night">#252525</color>
+    <color name="MyCheckBoxStyle">#e2e2e2</color>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="textColorPrimarySepia">#645032</color>
+    <color name="textColorPrimaryScrollSepia">#1A645032</color>
+    <color name="colorPrimarySepia">#ece1ca</color>
+    <color name="colorPrimaryDarkSepia">#ece1ca</color>
+    <color name="windowBackgroundSepia">#ece1ca</color>
+    <color name="buttonColorSepia">#CEC3AC</color>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Confucius Reading</string>
+    <string name="toggle_dark_theme">Dark Mode</string>
+
+    <string name="TheAnalects">"The Analects"</string>
+</resources>
