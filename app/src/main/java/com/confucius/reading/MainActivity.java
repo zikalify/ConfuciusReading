@@ -10,6 +10,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.confucius.reading.TheAnalects.TheAnalectsHome;
+
 public class MainActivity extends AppCompatActivity {
     private static final String PREFS_NAME = "prefs";
     private static final String PREF_DARK_THEME = "dark_theme";

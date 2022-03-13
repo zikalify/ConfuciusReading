@@ -34,7 +34,7 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@id/toggle_dark_theme"
             android:layout_marginTop="40dp"
-            android:text="@string/TheAnalects"
+            android:text="@string/TheAnalectsTitle"
             tools:layout_editor_absoluteX="4dp"
             tools:layout_editor_absoluteY="5dp" />
 

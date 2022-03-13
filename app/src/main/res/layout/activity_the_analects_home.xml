@@ -1,9 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TheAnalectsHome">
+    android:fillViewport="true"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".TheAnalects.TheAnalectsHome">
+
+        <Button
+            android:id="@+id/XueErTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/XueErTitle"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:id="@+id/WeiZhengTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/XueErTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/WeiZhengTitle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <Button
+            android:id="@+id/BaYiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/WeiZhengTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/BaYiTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/LiRenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaYiTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/LiRenTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/GongYeChangTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LiRenTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/GongYeChangTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/YongYeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GongYeChangTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/YongYeTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/ShuErTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/YongYeTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ShuErTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/TaiBoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShuErTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/TaiBoTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/ZiHanTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TaiBoTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ZiHanTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/XiangDangTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ZiHanTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/XiangDangTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/XianJinTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/XiangDangTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/XianJinTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/YanYuanTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/XianJinTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/YanYuanTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/ZiLuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/YanYuanTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ZiLuTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/XianWenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ZiLuTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/XianWenTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/WeiLingGongTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/XianWenTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/WeiLingGongTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/JiShiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/WeiLingGongTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/JiShiTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/YangHuoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/JiShiTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/YangHuoTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/WeiZiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/YangHuoTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/WeiZiTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/ZiZhangTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/WeiZiTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ZiZhangTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/YaoYueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ZiZhangTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/YaoYueTitle"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

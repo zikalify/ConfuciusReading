@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_ba_yi.xml" value="0.26811594202898553" />
+        <entry key="app/src/main/res/layout/activity_li_ren.xml" value="0.17135416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25226449275362317" />
         <entry key="app/src/main/res/layout/activity_the_analects_home.xml" value="0.25226449275362317" />
+        <entry key="app/src/main/res/layout/activity_wei_zheng.xml" value="0.26811594202898553" />
+        <entry key="app/src/main/res/layout/activity_xue_er.xml" value="0.1" />
       </map>
     </option>
   </component>

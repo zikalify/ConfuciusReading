@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TheAnalectsHome"
+            android:name=".TheAnalects.LiRen"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnalects.BaYi"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnalects.WeiZheng"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnalects.XueEr"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnalects.TheAnalectsHome"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
