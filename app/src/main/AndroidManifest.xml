@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".TheAnalects.GongYeChang"
+            android:exported="false" />
+        <activity
             android:name=".TheAnalects.LiRen"
             android:exported="false" />
         <activity

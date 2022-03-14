@@ -41,8 +41,8 @@ public class TheAnalectsHome extends AppCompatActivity {
         button = findViewById(R.id.LiRenTitle);
         button.setOnClickListener(v -> LiRen());
 //
-//        button = findViewById(R.id.GongYeChangTitle);
-//        button.setOnClickListener(v -> GongYeChang());
+        button = findViewById(R.id.GongYeChangTitle);
+        button.setOnClickListener(v -> GongYeChang());
 //
 //        button = findViewById(R.id.YongYeTitle);
 //        button.setOnClickListener(v -> YongYe());
@@ -110,11 +110,11 @@ public class TheAnalectsHome extends AppCompatActivity {
         Intent intent = new Intent(this, LiRen.class);
         startActivity(intent);
     }
-//
-//    public void GongYeChang() {
-//        Intent intent = new Intent(this, GongYeChang.class);
-//        startActivity(intent);
-//    }
+
+    public void GongYeChang() {
+        Intent intent = new Intent(this, GongYeChang.class);
+        startActivity(intent);
+    }
 //
 //    public void YongYe() {
 //        Intent intent = new Intent(this, YongYe.class);
